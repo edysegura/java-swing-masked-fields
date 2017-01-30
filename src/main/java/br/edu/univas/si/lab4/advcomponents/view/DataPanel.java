@@ -21,7 +21,7 @@ public class DataPanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 	
 	private static final String ZIPCODE_MASK = "#####-###";
-	private static final String PHONE_MASK = "(##) ####-####";
+	private static final String PHONE_MASK = "(##) #####-####";
 
 	
 	private JLabel phone1Label;
