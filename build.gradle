@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+version = '1.0'
+mainClassName = 'br.edu.univas.si.lab4.advcomponents.controller.Runner'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'br.edu.univas.si.lab4.advcomponents.controller.Runner'
+    }
+}
